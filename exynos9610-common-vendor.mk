@@ -311,43 +311,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/audio.primary.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/gatekeeper.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/gralloc.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/hwcomposer.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/keystore.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/memtrack.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/power.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/thermal.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/thermal.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libENF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libENF.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl_plugin_slsi_hdr10.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libalsautils_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils_sec.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libaudioproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioproxy.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libepicoperator.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifills_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_plugin_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_plugin_utils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_vdis_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_vdis_plugin.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgraphicbuffer.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgiantmscl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhubconnection.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-audio.so \
@@ -359,22 +340,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-sar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-sar.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-se.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-se.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-wlan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-wlan.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libyuvrepro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuvrepro.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.rp.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
@@ -387,44 +356,25 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.samsung.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl.samsung.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/gatekeeper.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/gralloc.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/hwcomposer.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/keystore.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/keystore.exynos9610.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/memtrack.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/power.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/power.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/thermal.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/thermal.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libENF.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libENF.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl_plugin_slsi_hdr10.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadropbox.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libcharon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libepicoperator.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifills_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_plugin_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_plugin_utils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_vdis_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_vdis_plugin.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgraphicbuffer.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgiantmscl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-audio.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-client.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-gps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-gps.so \
@@ -434,21 +384,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-sar.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-se.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-se.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-wlan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-wlan.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libyuvrepro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuvrepro.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.rp.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so \
