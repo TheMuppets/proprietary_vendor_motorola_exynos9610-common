@@ -329,6 +329,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhubconnection.so \
+    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-audio.so \
@@ -375,6 +376,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so \
+    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-audio.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-client.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-gps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-gps.so \
