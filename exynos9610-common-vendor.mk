@@ -46,7 +46,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/bin/cbd:$(TARGET_COPY_OUT_VENDOR)/bin/cbd \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/charge_only_mode:$(TARGET_COPY_OUT_VENDOR)/bin/charge_only_mode \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/charon:$(TARGET_COPY_OUT_VENDOR)/bin/charon \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/exynos-thermald:$(TARGET_COPY_OUT_VENDOR)/bin/exynos-thermald \
@@ -54,14 +53,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-uicc-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.secure_element@1.2-uicc-service \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/gpsd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/gpsd \
-    vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/rild_exynos:$(TARGET_COPY_OUT_VENDOR)/bin/hw/rild_exynos \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.1-default-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/samsung.hardware.media.c2@1.1-default-service \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.samsung.hardware.gnss@1.0-service \
-    vendor/motorola/exynos9610-common/proprietary/vendor/bin/main_abox:$(TARGET_COPY_OUT_VENDOR)/bin/main_abox \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/mcDriverDaemon:$(TARGET_COPY_OUT_VENDOR)/bin/mcDriverDaemon \
     vendor/motorola/exynos9610-common/proprietary/vendor/bin/wfc-pkt-router:$(TARGET_COPY_OUT_VENDOR)/bin/wfc-pkt-router \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/ap_gain_mmul.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain_mmul.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -69,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.1-default-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.1-default-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn82_rfreg.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf \
@@ -268,7 +262,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/sec_s3nrn82_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn82_firmware.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/tracker_cfg.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tracker_cfg.json \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/audio.primary.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/gatekeeper.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/keystore.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.exynos9610.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/power.exynos9610.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/power.exynos9610.so \
@@ -276,10 +269,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libENF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libENF.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libalsautils_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils_sec.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libaudioproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioproxy.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdapparamstorage.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libdemangle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdemangle.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifills_plugin.so \
@@ -289,29 +278,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhubconnection.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libmotaudioutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmotaudioutils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-audio.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-client.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-gps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-gps.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-ims.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-ims.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-nr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-nr.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-psensor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-psensor.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-sar.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-sar.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-se.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-se.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libsitril-wlan.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsitril-wlan.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libunshorten.so:$(TARGET_COPY_OUT_VENDOR)/lib/libunshorten.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvdis.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libyuvrepro.so:$(TARGET_COPY_OUT_VENDOR)/lib/libyuvrepro.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.rp.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.egistec.hardware.fingerprint@4.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.radio@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.radio@1.1.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.0-impl.samsung.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@1.1-impl.samsung.so \
@@ -325,9 +297,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libENF.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libENF.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libadropbox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadropbox.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libcharon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libdapparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdapparamstorage.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libdemangle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdemangle.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifills_plugin.so \
@@ -337,24 +307,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-audio.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-audio.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-client.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-gps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-gps.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-ims.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-ims.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-nr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-nr.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-psensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-psensor.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-sar.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-sar.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-se.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-se.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libsitril-wlan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsitril-wlan.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libvdis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvdis.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libyuvrepro.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libyuvrepro.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.rp.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.telephony.hardware.oemservice@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung_slsi.telephony.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.telephony.hardware.radio@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung_slsi.telephony.hardware.radio@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.telephony.hardware.radio@1.1.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.0.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung_slsi.telephony.hardware.radioExternal@1.1.so
+    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so
