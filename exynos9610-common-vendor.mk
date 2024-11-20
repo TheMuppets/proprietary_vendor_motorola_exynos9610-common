@@ -275,7 +275,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_plugin_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_plugin_utils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_vdis_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_vdis_plugin.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhubconnection.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
@@ -304,7 +303,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_plugin_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_plugin_utils.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_vdis_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_vdis_plugin.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhifills.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhifills.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libhubconnection.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhubconnection.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libstrongswan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstrongswan.so \
