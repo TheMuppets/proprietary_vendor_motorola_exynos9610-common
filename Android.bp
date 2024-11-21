@@ -10,7 +10,7 @@ soong_namespace {
 android_app_import {
 	name: "MotoSignatureApp",
 	owner: "motorola",
-	apk: "proprietary/app/MotoSignatureApp/MotoSignatureApp.apk",
+	apk: "proprietary/system/app/MotoSignatureApp/MotoSignatureApp.apk",
 	preprocessed: true,
 	presigned: true,
 	dex_preopt: {
@@ -21,7 +21,7 @@ android_app_import {
 android_app_import {
 	name: "ShannonIms",
 	owner: "motorola",
-	apk: "proprietary/app/ShannonIms/ShannonIms.apk",
+	apk: "proprietary/system/app/ShannonIms/ShannonIms.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,
@@ -31,7 +31,7 @@ android_app_import {
 android_app_import {
 	name: "OemRilService",
 	owner: "motorola",
-	apk: "proprietary/priv-app/OemRilService/OemRilService.apk",
+	apk: "proprietary/system/priv-app/OemRilService/OemRilService.apk",
 	certificate: "platform",
 	dex_preopt: {
 		enabled: false,

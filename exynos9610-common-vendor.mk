@@ -6,14 +6,14 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/exynos9610-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
-    vendor/motorola/exynos9610-common/proprietary/lib64/libmedia_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_ims.so \
-    vendor/motorola/exynos9610-common/proprietary/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmediaadaptor.so \
     vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.content.ai.xml \
     vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/com.motorola.camera2.hallasan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.hallasan.xml \
     vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
     vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
     vendor/motorola/exynos9610-common/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
+    vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/exynos9610-common/proprietary/system/lib64/libmedia_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_ims.so \
+    vendor/motorola/exynos9610-common/proprietary/system/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmediaadaptor.so \
     vendor/motorola/exynos9610-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
 
 PRODUCT_PACKAGES += \
