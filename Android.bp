@@ -4,7 +4,626 @@
 
 soong_namespace {
 	imports: [
+		"device/motorola/exynos9610-common",
+		"hardware/samsung_slsi-linaro/graphics",
 	],
+}
+
+cc_prebuilt_library_shared {
+	name: "libmedia_ims",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libmedia_ims.so"],
+			shared_libs: ["android.hidl.token@1.0-utils", "liblog", "libcutils", "libprocessgroup", "libutils", "libbinder", "libbinder_ndk", "libexpat", "libcamera_client", "libstagefright_foundation", "libui", "libgui", "libaudioclient", "libmedia_codeclist", "libmedia_omx", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmediaadaptor",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/system/lib64/libmediaadaptor.so"],
+			shared_libs: ["liblog", "libutils", "libbinder", "libstagefright", "libmedia_ims", "libandroid_runtime", "libnativehelper", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	prefer: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libGLES_mali",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/egl/libGLES_mali.so"],
+			shared_libs: ["liblog", "libz", "libnativewindow", "libm", "libc", "libdl", "libion_exynos", "libc++", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/egl/libGLES_mali.so"],
+			shared_libs: ["liblog", "libz", "libnativewindow", "libm", "libc", "libdl", "libion_exynos", "libc++", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "egl",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "gatekeeper.exynos9610",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/gatekeeper.exynos9610.so"],
+			shared_libs: ["libMcClient", "libgatekeeper", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/gatekeeper.exynos9610.so"],
+			shared_libs: ["libMcClient", "libgatekeeper", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "keystore.exynos9610",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/keystore.exynos9610.so"],
+			shared_libs: ["libcrypto", "liblog", "libMcClient", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/keystore.exynos9610.so"],
+			shared_libs: ["libcrypto", "liblog", "libMcClient", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "power.exynos9610",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/power.exynos9610.so"],
+			shared_libs: ["liblog", "libcutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/power.exynos9610.so"],
+			shared_libs: ["liblog", "libcutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "thermal.exynos9610",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/thermal.exynos9610.so"],
+			shared_libs: ["liblog", "libcutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/thermal.exynos9610.so"],
+			shared_libs: ["liblog", "libcutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.egistec.hardware.fingerprint@4.0-impl",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so"],
+			shared_libs: ["libbinder", "libhardware", "libhidlbase", "libutils", "vendor.egistec.hardware.fingerprint@4.0", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so"],
+			shared_libs: ["libbinder", "libhardware", "libhidlbase", "libutils", "vendor.egistec.hardware.fingerprint@4.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libENF",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libENF.so"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libENF.so"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libMcClient",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libMcClient.so"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libMcClient.so"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera_hifi_plugin",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera_hifi_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libyuvrepro", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera_hifi_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libyuvrepro", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera_hifills_plugin",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera_hifills_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libhifills", "libENF", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera_hifills_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libhifills", "libENF", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera_plugin",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera_plugin_utils",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera_plugin_utils.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera_plugin_utils.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libexynoscamera_vdis_plugin",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libexynoscamera_vdis_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libvdis", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libexynoscamera_vdis_plugin.so"],
+			shared_libs: ["libutils", "libcutils", "liblog", "libexynoscamera_plugin", "libvdis", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhifills",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libhifills.so"],
+			shared_libs: ["libprocessgroup", "libdemangle", "libion_exynos", "libENF", "liblog", "libcutils", "libz", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libhifills.so"],
+			shared_libs: ["libprocessgroup", "libdemangle", "libion_exynos", "libENF", "liblog", "libcutils", "libz", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libhubconnection",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libhubconnection.so"],
+			shared_libs: ["libcutils", "libhardware", "libhardware_legacy", "liblog", "libstagefright_foundation", "libutils", "android.hardware.power@1.1", "android.hardware.power@1.0", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libhubconnection.so"],
+			shared_libs: ["libcutils", "libhardware", "libhardware_legacy", "liblog", "libstagefright_foundation", "libutils", "android.hardware.power@1.1", "android.hardware.power@1.0", "libhidlbase", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvdis",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvdis.so"],
+			shared_libs: ["libbase", "libutils", "libcutils", "liblog", "libion_exynos", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvdis.so"],
+			shared_libs: ["libbase", "libutils", "libcutils", "liblog", "libion_exynos", "libsensorndkbridge", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	check_elf_files: false,
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libyuvrepro",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libyuvrepro.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libyuvrepro.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "sensors.rp",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/sensors.rp.so"],
+			shared_libs: ["libutils-v32", "libcutils", "liblog", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/sensors.rp.so"],
+			shared_libs: ["libutils-v32", "libcutils", "liblog", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.egistec.hardware.fingerprint@4.0",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.egistec.hardware.fingerprint@4.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liboemcrypto",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/liboemcrypto.so"],
+			shared_libs: ["libMcClient", "libc", "libm", "libdl", "liblog", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwvhidl",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+			shared_libs: ["libcrypto_shim", "android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "android.hidl.memory@1.0", "libbase", "libcrypto", "libhidlbase", "libhidlmemory", "liblog", "libprotobuf-cpp-lite-3.9.1-vendorcompat", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "android.hardware.gnss@1.0-impl.samsung",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@1.0-impl.samsung.so"],
+			shared_libs: ["libc++", "liblog", "libbase", "libcutils", "libutils", "libhidlbase", "libvndksupport", "android.hardware.gnss@1.0", "libm", "libdl", "libz", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "android.hardware.gnss@1.1-impl.samsung",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@1.1-impl.samsung.so"],
+			shared_libs: ["libc++", "liblog", "libbase", "libcutils", "libutils", "libhidlbase", "libvndksupport", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "libm", "libdl", "libz", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "android.hardware.gnss@2.0-impl.samsung",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl.samsung.so"],
+			shared_libs: ["libc++", "liblog", "libbase", "libcutils", "libutils", "libhidlbase", "libvndksupport", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.visibility_control@1.0", "libm", "libdl", "libz", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.samsung.hardware.gnss@1.0-impl",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/hw/vendor.samsung.hardware.gnss@1.0-impl.so"],
+			shared_libs: ["libc++", "liblog", "libbase", "libcutils", "libutils", "libhidlbase", "libvndksupport", "vendor.samsung.hardware.gnss@1.0", "libm", "libdl", "libz", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libRbsFlow",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libRbsFlow.so"],
+			shared_libs: ["libMcClient", "libc", "libm", "libdl", "liblog", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcharon",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libcharon.so"],
+			shared_libs: ["libcutils", "libstrongswan", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstrongswan",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libstrongswan.so"],
+			shared_libs: ["libcrypto_shim", "libcutils", "libdl", "libc++", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.samsung.hardware.gnss@1.0",
+	owner: "motorola",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so"],
+			shared_libs: ["libhidlbase", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
 }
 
 android_app_import {
@@ -131,5 +750,199 @@ dex_import {
 	owner: "motorola",
 	jars: ["proprietary/system_ext/framework/com.android.hotwordenrollment.common.util.jar"],
 	system_ext_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "charge_only_mode",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/charge_only_mode"],
+			shared_libs: ["libmemset_shim", "libhardware_legacy", "libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "charon",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/charon"],
+			shared_libs: ["libstrongswan", "libcharon", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "exynos-thermald",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/exynos-thermald"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.biometrics.fingerprint@2.1-service-rbs",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-rbs"],
+			shared_libs: ["libbinder", "liblog", "libhidlbase", "libutils", "android.hardware.biometrics.fingerprint@2.1", "vendor.egistec.hardware.fingerprint@4.0", "libc++", "libdl", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.3-service.widevine",
+	owner: "motorola",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hardware.drm@1.3", "libbase", "libhidlbase", "liblog", "libutils", "libwvhidl", "libbinder", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.secure_element@1.2-uicc-service",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.secure_element@1.2-uicc-service"],
+			shared_libs: ["android.hardware.secure_element@1.0", "android.hardware.secure_element@1.1", "android.hardware.secure_element@1.2", "libbase", "libcutils", "libhardware", "libhidlbase", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gpsd",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/gpsd"],
+			shared_libs: ["libc++", "liblog", "libm", "libandroid_net", "libssl", "libcrypto", "libz", "libdl", "libc", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "samsung.hardware.media.c2@1.1-default-service",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.1-default-service"],
+			shared_libs: ["libbase", "liblog", "libcodec2", "libutils", "android.hardware.media.c2@1.0", "android.hardware.media.c2@1.1", "libcodec2_hidl@1.0", "libcodec2_hidl@1.1", "libcodec2_vndk", "libhidlbase", "libavservices_minijail_vendor", "libbinder", "libion", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	check_elf_files: false,
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.samsung.hardware.gnss@1.0-service",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.samsung.hardware.gnss@1.0-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libbinder", "libhidlbase", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "android.hardware.gnss@2.1", "vendor.samsung.hardware.gnss@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mcDriverDaemon",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mcDriverDaemon"],
+			shared_libs: ["liblog", "libc", "libMcClient", "libc++", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wfc-pkt-router",
+	owner: "motorola",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/wfc-pkt-router"],
+			shared_libs: ["liblog", "libip_checksum_shim", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
 }
 
