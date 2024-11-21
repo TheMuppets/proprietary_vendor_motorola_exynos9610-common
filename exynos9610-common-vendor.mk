@@ -14,22 +14,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/exynos9610-common/proprietary/system/lib64/libmedia_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmedia_ims.so \
     vendor/motorola/exynos9610-common/proprietary/system/lib64/libmediaadaptor.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmediaadaptor.so \
-    vendor/motorola/exynos9610-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml
-
-PRODUCT_PACKAGES += \
-    MotoSignatureApp \
-    ShannonIms \
-    OemRilService \
-    MotCamera2AI \
-    HotwordEnrollmentOKGoogleWM8280 \
-    HotwordEnrollmentXGoogleWM8280 \
-    MotCamera2 \
-    ShannonDataService \
-    ShannonNetworkService \
-    ShannonQualifiedNetworksService \
-    com.motorola.motosignature \
-    com.android.hotwordenrollment.common.util
-PRODUCT_COPY_FILES += \
+    vendor/motorola/exynos9610-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/0706000000000000000000000000004d.tlbin \
@@ -303,3 +288,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.rp.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/vendor.samsung.hardware.gnss@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.gnss@1.0.so
+
+PRODUCT_PACKAGES += \
+    MotoSignatureApp \
+    ShannonIms \
+    OemRilService \
+    MotCamera2AI \
+    HotwordEnrollmentOKGoogleWM8280 \
+    HotwordEnrollmentXGoogleWM8280 \
+    MotCamera2 \
+    ShannonDataService \
+    ShannonNetworkService \
+    ShannonQualifiedNetworksService \
+    com.motorola.motosignature \
+    com.android.hotwordenrollment.common.util
