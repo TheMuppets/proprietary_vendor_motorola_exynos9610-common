@@ -246,7 +246,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.egistec.hardware.fingerprint@4.0-impl.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libENF.so:$(TARGET_COPY_OUT_VENDOR)/lib/libENF.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libMcClient.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib/libdemangle.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdemangle.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_hifills_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynoscamera_plugin.so \
@@ -274,7 +273,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libMcClient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMcClient.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libRbsFlow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRbsFlow.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libcharon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcharon.so \
-    vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libdemangle.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdemangle.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifi_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifi_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_hifills_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_hifills_plugin.so \
     vendor/motorola/exynos9610-common/proprietary/vendor/lib64/libexynoscamera_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynoscamera_plugin.so \
