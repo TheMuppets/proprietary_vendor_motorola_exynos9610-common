@@ -101,7 +101,6 @@ PRODUCT_PACKAGES += \
     libmedia_ims \
     libmediaadaptor \
     libGLES_mali \
-    gatekeeper.exynos9610 \
     keystore.exynos9610 \
     power.exynos9610 \
     thermal.exynos9610 \
