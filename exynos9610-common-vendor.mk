@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/etc/ap_gain_mmul.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain_mmul.bin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -28,6 +30,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn82_rfreg.bin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf \
@@ -236,6 +239,7 @@ PRODUCT_PACKAGES += \
     thermal.exynos9610 \
     vendor.egistec.hardware.fingerprint@4.0-impl \
     libENF \
+    libdapparamstorage \
     libexynoscamera_hifi_plugin \
     libexynoscamera_hifills_plugin \
     libexynoscamera_plugin \
@@ -243,17 +247,40 @@ PRODUCT_PACKAGES += \
     libexynoscamera_vdis_plugin \
     libhifills \
     libhubconnection \
+    libril_sitril \
+    libsitril-audio \
+    libsitril-client \
+    libsitril-gps \
+    libsitril-ims \
+    libsitril-nr \
+    libsitril-psensor \
+    libsitril-sar \
+    libsitril-se \
+    libsitril-wlan \
+    libsitril \
     libvdis \
     libyuvrepro \
     sensors.rp \
     vendor.egistec.hardware.fingerprint@4.0 \
+    vendor.samsung_slsi.telephony.hardware.oemservice@1.0 \
+    vendor.samsung_slsi.telephony.hardware.radio@1.0 \
+    vendor.samsung_slsi.telephony.hardware.radio@1.1 \
+    vendor.samsung_slsi.telephony.hardware.radioExternal@1.0 \
+    vendor.samsung_slsi.telephony.hardware.radioExternal@1.1 \
+    audio.primary.exynos9610 \
+    libalsautils_sec \
+    libaudio-ril \
+    libaudioproxy \
+    libmotaudioutils \
     liboemcrypto \
+    libunshorten \
     libwvhidl \
     android.hardware.gnss@1.0-impl.samsung \
     android.hardware.gnss@1.1-impl.samsung \
     android.hardware.gnss@2.0-impl.samsung \
     vendor.samsung.hardware.gnss@1.0-impl \
     libRbsFlow \
+    libadropbox \
     libcharon \
     libstrongswan \
     vendor.samsung.hardware.gnss@1.0 \
@@ -269,6 +296,7 @@ PRODUCT_PACKAGES += \
     ShannonQualifiedNetworksService \
     com.motorola.motosignature \
     com.android.hotwordenrollment.common.util \
+    cbd \
     charge_only_mode \
     charon \
     exynos-thermald \
@@ -276,8 +304,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.secure_element@1.2-uicc-service \
     gpsd \
+    rild_exynos \
     samsung.hardware.media.c2@1.1-default-service \
     vendor.samsung.hardware.gnss@1.0-service \
+    main_abox \
     wfc-pkt-router
 
 PRODUCT_PACKAGES += \
