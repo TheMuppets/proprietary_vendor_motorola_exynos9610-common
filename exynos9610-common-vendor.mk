@@ -100,7 +100,6 @@ PRODUCT_PACKAGES += \
     libGLES_mali \
     keystore.exynos9610 \
     power.exynos9610 \
-    thermal.exynos9610 \
     vendor.egistec.hardware.fingerprint@4.0-impl \
     libENF \
     libdapparamstorage \
@@ -161,7 +160,6 @@ PRODUCT_PACKAGES += \
     com.android.hotwordenrollment.common.util \
     cbd \
     charon \
-    exynos-thermald \
     android.hardware.biometrics.fingerprint@2.1-service-rbs \
     android.hardware.drm@1.3-service.widevine \
     android.hardware.secure_element@1.2-uicc-service \
