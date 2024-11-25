@@ -2391,45 +2391,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "samsung.hardware.media.c2@1.1-default-service",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/hw/samsung.hardware.media.c2@1.1-default-service",
-            ],
-            shared_libs: [
-                "libbase",
-                "liblog",
-                "libcodec2",
-                "libutils",
-                "android.hardware.media.c2@1.0",
-                "android.hardware.media.c2@1.1",
-                "libcodec2_hidl@1.0",
-                "libcodec2_hidl@1.1",
-                "libcodec2_vndk",
-                "libhidlbase",
-                "libavservices_minijail_vendor",
-                "libbinder",
-                "libion",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    relative_install_path: "hw",
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "main_abox",
     owner: "motorola",
     target: {
