@@ -33,27 +33,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_flexi/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_maestro_siso/wlan/wlan_t_sw.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/bt.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/platform.txt \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/platform.txt \
@@ -61,18 +40,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_sw.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_t.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_nofem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_smdk/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_smdk/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_smdk/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_smdk/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_smdk/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_smdk/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_smdk/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_smdk/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_smdk/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_smdk/wlan/wlan_t.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/bluetooth/bt.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/bluetooth/platform.txt \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/platform.txt \
@@ -80,105 +47,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_sw.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_t.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_troika_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/bluetooth/bt.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/bluetooth/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_wing_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/common/log-strings.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/common/log-strings.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/cortexR7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/cortexR7.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_ap2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_ap2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_apm2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_apm2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_cp2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_cp2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_shub2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_shub2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_wlbt2abox_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_wlbt2abox_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/mb_wlbt2gnss_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/mb_wlbt2gnss_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/moredump.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/moredump.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/moredump.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/moredump.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/peri_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/peri_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/periph_gic_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/periph_gic_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/periph_int_ifc_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/periph_int_ifc_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/periph_scu_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/periph_scu_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/pmu_conf_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/pmu_conf_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/hardware/moredump/rf_chip_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/hardware/moredump/rf_chip_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/hip_signals.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/hip_signals.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/hydra_config.sdb:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/hydra_config.sdb \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/id.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/id.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/mib_out.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/mib_out.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/symbols.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/symbols.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/unicli.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/unicli.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/unitab.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/unitab.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/univif.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/univif.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/debug/wlan/xide_mib.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/debug/wlan/xide_mib.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s612_smdk/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_flexi/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_maestro_siso/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_robusta2_nofem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_smdk/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_troika_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/platform.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_t.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_t.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_t_sw.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/conf/leman_s620_wing_dualfem/wlan/wlan_t_sw.hcf \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/common/log-strings.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/common/log-strings.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/cortexR7.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/cortexR7.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_ap2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_ap2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_apm2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_apm2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_cp2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_cp2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_shub2wlbt_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_shub2wlbt_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_wlbt2abox_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_wlbt2abox_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/mb_wlbt2gnss_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/mb_wlbt2gnss_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/moredump.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/moredump.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/moredump.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/moredump.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/peri_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/peri_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/periph_gic_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/periph_gic_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/periph_int_ifc_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/periph_int_ifc_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/periph_scu_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/periph_scu_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/pmu_conf_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/pmu_conf_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/hardware/moredump/rf_chip_registers.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/hardware/moredump/rf_chip_registers.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/hip_signals.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/hip_signals.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/hydra_config.sdb:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/hydra_config.sdb \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/id.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/id.txt \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/mib_out.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/mib_out.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/symbols.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/symbols.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/unicli.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/unicli.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/unitab.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/unitab.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/univif.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/univif.dbg \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140_t/debug/wlan/xide_mib.dbg:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140_t/debug/wlan/xide_mib.dbg \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/AP_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/AP_AUDIO_SLSI.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/CC_DRAM_CODE_FLASH_HIFI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CC_DRAM_CODE_FLASH_HIFI.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/CC_DTCM_CODE_FLASH_HIFI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/CC_DTCM_CODE_FLASH_HIFI.bin \
