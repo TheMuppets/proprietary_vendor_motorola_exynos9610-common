@@ -12,45 +12,6 @@ soong_namespace {
 }
 
 cc_prebuilt_library_shared {
-    name: "libmedia_ims",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/system/lib64/libmedia_ims.so",
-            ],
-            shared_libs: [
-                "android.hidl.token@1.0-utils",
-                "liblog",
-                "libcutils",
-                "libprocessgroup",
-                "libutils",
-                "libbinder",
-                "libbinder_ndk",
-                "libexpat",
-                "libcamera_client",
-                "libstagefright_foundation",
-                "libui",
-                "libgui",
-                "libaudioclient",
-                "libmedia_codeclist",
-                "libmedia_omx",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    check_elf_files: false,
-    prefer: true,
-}
-
-cc_prebuilt_library_shared {
     name: "libmediaadaptor",
     owner: "motorola",
     strip: {
@@ -66,7 +27,7 @@ cc_prebuilt_library_shared {
                 "libutils",
                 "libbinder",
                 "libstagefright",
-                "libmedia_ims",
+                "libmedia",
                 "libandroid_runtime",
                 "libnativehelper",
                 "libc++",

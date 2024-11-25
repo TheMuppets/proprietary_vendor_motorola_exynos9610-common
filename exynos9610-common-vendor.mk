@@ -97,7 +97,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/tracker_cfg.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tracker_cfg.json
 
 PRODUCT_PACKAGES += \
-    libmedia_ims \
     libmediaadaptor \
     libGLES_mali \
     keystore.exynos9610 \
