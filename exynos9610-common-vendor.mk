@@ -27,7 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/samsung.hardware.media.c2@1.1-default-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/samsung.hardware.media.c2@1.1-default-service.rc \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.samsung.hardware.gnss@1.0-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn82_rfreg.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
@@ -150,7 +149,6 @@ PRODUCT_PACKAGES += \
     libadropbox \
     libcharon \
     libstrongswan \
-    vendor.samsung.hardware.gnss@1.0 \
     MotoSignatureApp \
     ShannonIms \
     OemRilService \
@@ -173,7 +171,6 @@ PRODUCT_PACKAGES += \
     gpsd \
     rild_exynos \
     samsung.hardware.media.c2@1.1-default-service \
-    vendor.samsung.hardware.gnss@1.0-service \
     main_abox \
     wfc-pkt-router
 
