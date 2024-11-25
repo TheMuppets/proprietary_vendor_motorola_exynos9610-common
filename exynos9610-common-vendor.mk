@@ -161,7 +161,6 @@ PRODUCT_PACKAGES += \
     com.motorola.motosignature \
     com.android.hotwordenrollment.common.util \
     cbd \
-    charge_only_mode \
     charon \
     exynos-thermald \
     android.hardware.biometrics.fingerprint@2.1-service-rbs \
