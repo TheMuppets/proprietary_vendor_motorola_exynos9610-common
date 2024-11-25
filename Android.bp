@@ -6,6 +6,7 @@ soong_namespace {
     imports: [
         "device/motorola/exynos9610-common",
         "hardware/samsung_slsi-linaro/graphics",
+        "hardware/samsung_slsi-linaro/exynos/tee/kinibi410",
     ],
 }
 
@@ -361,43 +362,6 @@ cc_prebuilt_library_shared {
         android_arm64: {
             srcs: [
                 "proprietary/vendor/lib64/libENF.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "both",
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_library_shared {
-    name: "libMcClient",
-    owner: "motorola",
-    strip: {
-        none: true,
-    },
-    target: {
-        android_arm: {
-            srcs: [
-                "proprietary/vendor/lib/libMcClient.so",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc++",
-                "libc",
-                "libm",
-                "libdl",
-            ],
-        },
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/lib64/libMcClient.so",
             ],
             shared_libs: [
                 "liblog",
@@ -1637,32 +1601,6 @@ cc_prebuilt_binary {
 }
 
 cc_prebuilt_binary {
-    name: "mcDriverDaemon",
-    owner: "motorola",
-    target: {
-        android_arm64: {
-            srcs: [
-                "proprietary/vendor/bin/mcDriverDaemon",
-            ],
-            shared_libs: [
-                "liblog",
-                "libc",
-                "libMcClient",
-                "libc++",
-                "libm",
-                "libdl",
-            ],
-        },
-    },
-    compile_multilib: "64",
-    strip: {
-        none: true,
-    },
-    prefer: true,
-    soc_specific: true,
-}
-
-cc_prebuilt_binary {
     name: "wfc-pkt-router",
     owner: "motorola",
     target: {
@@ -1686,4 +1624,60 @@ cc_prebuilt_binary {
     },
     prefer: true,
     soc_specific: true,
+}
+
+install_symlink {
+    name: "vendor_lib_hw_vulkan_exynos9610_so",
+    soc_specific: true,
+    installed_location: "lib/hw/vulkan.exynos9610.so",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libOpenCL_so",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libOpenCL_so_1",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so.1",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib_libOpenCL_so_1_1",
+    soc_specific: true,
+    installed_location: "lib/libOpenCL.so.1.1",
+    symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_hw_vulkan_exynos9610_so",
+    soc_specific: true,
+    installed_location: "lib64/hw/vulkan.exynos9610.so",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libOpenCL_so",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libOpenCL_so_1",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so.1",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+    name: "vendor_lib64_libOpenCL_so_1_1",
+    soc_specific: true,
+    installed_location: "lib64/libOpenCL.so.1.1",
+    symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
 }

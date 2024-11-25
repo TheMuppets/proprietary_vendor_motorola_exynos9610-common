@@ -236,7 +236,6 @@ PRODUCT_PACKAGES += \
     thermal.exynos9610 \
     vendor.egistec.hardware.fingerprint@4.0-impl \
     libENF \
-    libMcClient \
     libexynoscamera_hifi_plugin \
     libexynoscamera_hifills_plugin \
     libexynoscamera_plugin \
@@ -279,5 +278,14 @@ PRODUCT_PACKAGES += \
     gpsd \
     samsung.hardware.media.c2@1.1-default-service \
     vendor.samsung.hardware.gnss@1.0-service \
-    mcDriverDaemon \
     wfc-pkt-router
+
+PRODUCT_PACKAGES += \
+    vendor_lib_hw_vulkan_exynos9610_so \
+    vendor_lib_libOpenCL_so \
+    vendor_lib_libOpenCL_so_1 \
+    vendor_lib_libOpenCL_so_1_1 \
+    vendor_lib64_hw_vulkan_exynos9610_so \
+    vendor_lib64_libOpenCL_so \
+    vendor_lib64_libOpenCL_so_1 \
+    vendor_lib64_libOpenCL_so_1_1
