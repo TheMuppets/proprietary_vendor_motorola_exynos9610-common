@@ -24,7 +24,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libmediaadaptor.so",
             ],
             shared_libs: [
-                "libmediaadaptor_shim",
+                "libnativehelper_shim",
                 "liblog",
                 "libutils",
                 "libbinder",
