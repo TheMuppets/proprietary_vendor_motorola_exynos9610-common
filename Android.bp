@@ -24,6 +24,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system/lib64/libmediaadaptor.so",
             ],
             shared_libs: [
+                "libmediaadaptor_shim",
                 "liblog",
                 "libutils",
                 "libbinder",
@@ -39,7 +40,6 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "64",
-    check_elf_files: false,
     prefer: true,
 }
 
