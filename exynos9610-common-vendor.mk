@@ -115,17 +115,12 @@ PRODUCT_PACKAGES += \
     libsitril-client \
     libsitril-gps \
     libsitril-ims \
-    libsitril-nr \
-    libsitril-psensor \
-    libsitril-sar \
     libsitril-se \
-    libsitril-wlan \
     libsitril \
     libvdis \
     libyuvrepro \
     sensors.rp \
     vendor.egistec.hardware.fingerprint@4.0 \
-    vendor.samsung_slsi.telephony.hardware.oemservice@1.0 \
     vendor.samsung_slsi.telephony.hardware.radio@1.0 \
     vendor.samsung_slsi.telephony.hardware.radio@1.1 \
     vendor.samsung_slsi.telephony.hardware.radioExternal@1.0 \
