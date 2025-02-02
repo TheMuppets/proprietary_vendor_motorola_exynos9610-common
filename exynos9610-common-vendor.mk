@@ -160,7 +160,6 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2-uicc-service \
     gpsd \
     rild_exynos \
-    main_abox \
     wfc-pkt-router
 
 PRODUCT_PACKAGES += \
