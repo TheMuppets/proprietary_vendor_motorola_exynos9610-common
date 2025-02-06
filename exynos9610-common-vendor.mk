@@ -6,11 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/exynos9610-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/com.motorola.camera2.content.ai.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.content.ai.xml \
-    vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/com.motorola.camera2.hallasan.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/com.motorola.camera2.hallasan.xml \
-    vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera2.xml \
-    vendor/motorola/exynos9610-common/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera2.xml \
-    vendor/motorola/exynos9610-common/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera2.xml \
     vendor/motorola/exynos9610-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
@@ -20,13 +15,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/ap_gain_mmul.bin:$(TARGET_COPY_OUT_VENDOR)/etc/ap_gain_mmul.bin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.motosignature.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn82_rfreg.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx \
@@ -98,16 +90,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libmediaadaptor \
     libGLES_mali \
-    keystore.exynos9610 \
-    power.exynos9610 \
     vendor.egistec.hardware.fingerprint@4.0-impl \
     libENF \
-    libdapparamstorage \
-    libexynoscamera_hifi_plugin \
-    libexynoscamera_hifills_plugin \
-    libexynoscamera_plugin \
-    libexynoscamera_plugin_utils \
-    libexynoscamera_vdis_plugin \
     libhifills \
     libhubconnection \
     libril_sitril \
@@ -125,13 +109,7 @@ PRODUCT_PACKAGES += \
     vendor.samsung_slsi.telephony.hardware.radio@1.1 \
     vendor.samsung_slsi.telephony.hardware.radioExternal@1.0 \
     vendor.samsung_slsi.telephony.hardware.radioExternal@1.1 \
-    audio.primary.exynos9610 \
-    libalsautils_sec \
-    libaudio-ril \
-    libaudioproxy \
-    libmotaudioutils \
     liboemcrypto \
-    libunshorten \
     libwvhidl \
     android.hardware.gnss@1.0-impl.samsung \
     android.hardware.gnss@1.1-impl.samsung \
@@ -141,17 +119,13 @@ PRODUCT_PACKAGES += \
     libadropbox \
     libcharon \
     libstrongswan \
-    MotoSignatureApp \
     ShannonIms \
     OemRilService \
-    MotCamera2AI \
     HotwordEnrollmentOKGoogleWM8280 \
     HotwordEnrollmentXGoogleWM8280 \
-    MotCamera2 \
     ShannonDataService \
     ShannonNetworkService \
     ShannonQualifiedNetworksService \
-    com.motorola.motosignature \
     com.android.hotwordenrollment.common.util \
     cbd \
     charon \
