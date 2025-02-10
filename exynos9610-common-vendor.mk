@@ -21,7 +21,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.secure_element@1.2-uicc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.secure_element@1.2-uicc-service.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn82_rfreg.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/sim_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sim_configuration.xml \
-    vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/bt.hcf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/bt.hcf \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/platform.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/mx140/conf/leman_s620_robusta2_dualfem/bluetooth/platform.txt \
