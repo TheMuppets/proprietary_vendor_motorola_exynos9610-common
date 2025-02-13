@@ -6,7 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/exynos9610-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/exynos9610-common/proprietary/system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.android.hotwordenrollment.common.util.xml \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/0706000000000000000000000000004d.tlbin \
@@ -120,12 +119,9 @@ PRODUCT_PACKAGES += \
     libstrongswan \
     ShannonIms \
     OemRilService \
-    HotwordEnrollmentOKGoogleWM8280 \
-    HotwordEnrollmentXGoogleWM8280 \
     ShannonDataService \
     ShannonNetworkService \
     ShannonQualifiedNetworksService \
-    com.android.hotwordenrollment.common.util \
     cbd \
     charon \
     android.hardware.biometrics.fingerprint@2.1-service-rbs \
