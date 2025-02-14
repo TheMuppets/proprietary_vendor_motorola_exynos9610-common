@@ -103,10 +103,6 @@ PRODUCT_PACKAGES += \
     libyuvrepro \
     sensors.rp \
     vendor.egistec.hardware.fingerprint@4.0 \
-    vendor.samsung_slsi.telephony.hardware.radio@1.0 \
-    vendor.samsung_slsi.telephony.hardware.radio@1.1 \
-    vendor.samsung_slsi.telephony.hardware.radioExternal@1.0 \
-    vendor.samsung_slsi.telephony.hardware.radioExternal@1.1 \
     liboemcrypto \
     libwvhidl \
     android.hardware.gnss@1.0-impl.samsung \
