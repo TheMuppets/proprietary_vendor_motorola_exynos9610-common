@@ -6,14 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/exynos9610-common
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/00060308060501020000000000000000.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07010000000000000000000000000000.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/0706000000000000000000000000004d.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/07061000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/07061000000000000000000000000000.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/09090000070100010000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/09090000070100010000000000000000.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000000e.tlbin \
-    vendor/motorola/exynos9610-common/proprietary/vendor/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/gnss/ca.pem:$(TARGET_COPY_OUT_VENDOR)/etc/gnss/ca.pem \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-rbs.rc \
     vendor/motorola/exynos9610-common/proprietary/vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.3-service.widevine.rc \
@@ -79,6 +71,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/marley-dsp2-aov-frontend.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-frontend.wmfw \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/marley-dsp2-aov-vrgain.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp2-aov-vrgain.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/marley-dsp3-aov-control.wmfw:$(TARGET_COPY_OUT_VENDOR)/firmware/marley-dsp3-aov-control.wmfw \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/00060308060501020000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/00060308060501020000000000000000.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/07010000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/07010000000000000000000000000000.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/0706000000000000000000000000004d.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/0706000000000000000000000000004d.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/07061000000000000000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/07061000000000000000000000000000.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/09090000070100010000000000000000.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/09090000070100010000000000000000.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/ffffffff00000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/ffffffff00000000000000000000000e.tlbin \
+    vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mcRegistry/ffffffffd0000000000000000000000e.tlbin:$(TARGET_COPY_OUT_VENDOR)/firmware/mcRegistry/ffffffffd0000000000000000000000e.tlbin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/mfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mfc_fw.bin \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/pp_cfg.json:$(TARGET_COPY_OUT_VENDOR)/firmware/pp_cfg.json \
     vendor/motorola/exynos9610-common/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin \
