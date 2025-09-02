@@ -110,6 +110,7 @@ PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl.samsung \
     vendor.samsung.hardware.gnss@1.0-impl \
     libRbsFlow \
+    libadropbox \
     libcharon \
     libstrongswan \
     ShannonIms \
@@ -117,6 +118,7 @@ PRODUCT_PACKAGES += \
     ShannonDataService \
     ShannonNetworkService \
     ShannonQualifiedNetworksService \
+    cbd \
     charon \
     android.hardware.biometrics.fingerprint@2.1-service-rbs \
     android.hardware.drm@1.3-service.widevine \
